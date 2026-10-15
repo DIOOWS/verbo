@@ -10,7 +10,7 @@ PWA estático. Não exige Python, banco de dados remoto ou mensalidade de banco.
 5. Teste em modo avião: fechar, abrir, buscar, salvar e exportar. Faça o teste com uma base fictícia antes de importar os inscritos reais, para não marcar decisões de teste como reais.
 
 ## Registro
-Digite o nome completo ou parte dele. A busca ignora acentos e diferenças entre maiúsculas e minúsculas. Se houver nomes iguais, confira telefone e e-mail na lista. IDs continuam internos para vinculação e consolidação; não são utilizados na busca. Confirme telefone e e-mail. Escolha uma decisão e salve. Repita para outras decisões. As escolhas se acumulam; registros repetidos aparecem no histórico, mas cada coluna de decisão permanece marcada apenas uma vez.
+Digite o nome completo ou parte dele: as sugestões aparecem automaticamente, sem apertar Buscar. Toque no nome desejado. A busca ignora acentos e diferenças entre maiúsculas e minúsculas. Se houver nomes iguais, confira telefone e e-mail na lista. IDs continuam internos para vinculação e consolidação; não são utilizados na busca. Confirme telefone e e-mail. Escolha uma decisão e salve. Repita para outras decisões. As escolhas se acumulam; registros repetidos aparecem no histórico, mas cada coluna de decisão permanece marcada apenas uma vez.
 
 ## Excel e consolidação
 - Importa `.xlsx` e `.xls`, primeira aba ou aba `Base`.
