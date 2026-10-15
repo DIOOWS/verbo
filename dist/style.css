@@ -2,3 +2,44 @@
 
 /* Navegação ilustrada e sugestões por nome. */
 nav button{min-height:66px;padding:10px 12px;gap:12px;align-items:center;transition:background .18s ease}nav button:hover{background:#31594c}nav button.active{background:#365a49;box-shadow:inset 3px 0 #d6ed99}.nav-icon{width:42px;height:42px;flex:0 0 42px;filter:drop-shadow(0 2px 1px #102c2a40)}nav button span{font-size:13px;line-height:1.35}.search-feedback{font-size:11px;color:#697c63;margin:12px 0 4px}.search-result{border:1px solid #e2e9d9;transition:background .15s,border-color .15s}.search-result:hover,.search-result:focus-visible{background:#eaf2df;border-color:#90a976}.search-result strong{font-size:14px}.search-result small{font-size:11px;color:#687b61;overflow-wrap:anywhere}#results{max-height:390px;overscroll-behavior:contain}.input-row input{width:100%}@media(max-width:700px){nav{gap:5px}nav button{min-height:78px;padding:8px 3px;gap:5px;border-radius:10px}.nav-icon{width:35px;height:35px;flex-basis:35px}nav button span{font-size:10px;line-height:1.3}nav button.active{box-shadow:inset 0 -3px #d6ed99}.search-result{padding:15px 12px}}
+
+/* Rodapé Verbo */
+.footer-verbo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 24px 0;
+    margin-top: 40px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 400;
+}
+.footer-verbo p { margin: 0; font-size: 12px; }
+.footer-verbo .footer-whatsapp {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 44px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    background: var(--green);
+    color: #fff;
+    text-decoration: none;
+}
+.footer-verbo .footer-whatsapp:hover { background: #28584c; }
+.footer-verbo .footer-whatsapp svg { width: 24px; height: 24px; flex-shrink: 0; }
+.footer-verbo .footer-whatsapp span { margin: 0; font-size: 12px; font-weight: 600; }
+.footer-verbo #device-footer {
+    flex-basis: 100%;
+    max-width: none;
+    margin: 0;
+    font-size: 11px;
+    overflow-wrap: anywhere;
+}
+@media (max-width: 700px) {
+    .footer-verbo { flex-direction: column; text-align: center; }
+}
