@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: verbo
+    runtime: static
+    buildCommand: echo Verbo
+    staticPublishPath: ./dist
+    headers:
+      - path: /sw.js
+        name: Cache-Control
+        value: no-cache
